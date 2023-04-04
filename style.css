@@ -56,3 +56,31 @@ body {
 .hero p{
     font-size: 2rem;
 }
+
+
+.presentation .cardDetails {
+    display: flex;
+}
+.presentation {
+    background-color: #F7DC6F;
+}
+
+.presentation .cardDetails img {
+    width: 20vw;
+}
+
+.presentation .container{
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
