@@ -11,10 +11,53 @@
 
 <body>
 
+<!-- Menu -->
+<nav class="navbar navbar-expand-sm vincent-navbar-custom">
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link vincent-navitem" href="#presentation">Nos produits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link vincent-navitem" href="#contact">Contact</a>
+            </li>
+          </ul>
+    </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+    <div class="container text-center">
+        <h1 class="display-4">Bienvenue chez Glaces Délices</h1>
+        <p class="lead">Découvrez nos délicieuses glaces artisanales !</p>
+    </div>
+</header>
+
+<!-- Présentation des glaces -->
+<section id="presentation" class="presentation py-5">
+    <div class="container">
+        <h2 class="mb-4">Nos produits</h2>
+        <div class="row">
+            <!-- Ajoutez des éléments similaires pour chaque glace -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="path/to/image.jpg" class="card-img-top glace_image" alt="Nom de la glace">
+                    <div class="card-body">
+                        <h5 class="card-title glace_name">Nom de la glace</h5>
+                        <p class="card-text glace_description">Description de la classe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Formulaire de contact -->
+
 <div class="text-center my-4">
     <button id="toggleContactBtn" class="btn btn-primary">Afficher/Masquer la section Contact</button>
 </div>
-
 <section class="contact py-5 bg-light">
     <div class="container">
         <h2 class="mb-4">Contactez-nous</h2>
@@ -38,7 +81,6 @@
         </form>
     </div>
 </section>
-
 
 
 <script src="script.js"></script>
