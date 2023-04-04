@@ -1,6 +1,41 @@
 body {
+    padding: 0;
+    margin: 0;
     font-family: 'Arial', sans-serif;
 }
+
+.contact {
+    display: none;
+    background-color: #F7DC6F;
+}
+
+/* Section Contact */
+.contact {
+    background-color: #f8f9fa;
+}
+
+/* Modify the background color */
+.vincent-navbar-custom {
+    background-color: #FFC0CB;
+}
+
+.vincent-navitem {
+    color: black;
+}
+
+*::-webkit-scrollbar {
+     width: 5px;
+ }
+
+*::-webkit-scrollbar-track {
+     background: transparent;
+ }
+
+*::-webkit-scrollbar-thumb {
+     background-color: rgb(36, 36, 36);
+     border-radius: 1px;
+ // border: 1px solid rgb(128, 128, 128);
+ }
 
 .hero {
     font-family: 'Lobster';
