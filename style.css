@@ -13,6 +13,8 @@ body {
 /* Modify the background color */
 .vincent-navbar-custom {
     background-color: #FFC0CB;
+    color: white;
+    font-size: 25px;
 }
 
 .vincent-navitem {
