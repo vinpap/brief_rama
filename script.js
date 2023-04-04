@@ -54,7 +54,7 @@ glaces = [
         "Savourez chaque bouchée de notre glace artisanale au chocolat, faite avec les ingrédients les plus fins et les plus savoureux. Laissez-vous transporter par sa texture crémeuse et onctueuse qui fond en bouche. Une expérience glacée inoubliable pour les amateurs de chocolat.",
 
         "assets/img/chocolat.png",
-        "#A9D0F5"
+        "#7B3F00"
     ),
 
     glace_vanille = new Glace(
@@ -78,10 +78,6 @@ glaces[0].updateGlaceHTML();
 
 
 let currentIndex = 0;
-setTimeout(() => {
-    document.querySelector('.presentation .container').style.animation = "animation: 1s infinite alternate slidein;";
-}, 4000);
-
 setInterval(() => {
     currentIndex = (currentIndex + 1) % glaces.length;
     glaces[currentIndex].updateGlaceHTML();
