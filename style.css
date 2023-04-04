@@ -6,13 +6,9 @@ body {
 
 .contact {
     display: none;
-    background-color: #F7DC6F;
+    background-color: #FFC0CB;
 }
 
-/* Section Contact */
-.contact {
-    background-color: #f8f9fa;
-}
 
 /* Modify the background color */
 .vincent-navbar-custom {
@@ -21,6 +17,10 @@ body {
 
 .vincent-navitem {
     color: black;
+}
+
+.vincent-btn {
+    background-color: #A9D0F5;
 }
 
 *::-webkit-scrollbar {
