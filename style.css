@@ -1,27 +1,23 @@
-/* Styles généraux */
 body {
     font-family: 'Arial', sans-serif;
 }
 
-/* Section Hero */
 .hero {
-
+    font-family: 'Lobster';
+    background-image: url('hero.jpg');
     background-size: cover;
     background-position: center;
-    padding: 100px 0;
     color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Section Présentation */
-.presentation .card {
-    transition: transform 0.3s;
+.hero h1{
+    font-size: 7rem;
 }
 
-.presentation .card:hover {
-    transform: scale(1.05);
-}
-
-/* Section Contact */
-.contact {
-    background-color: #f8f9fa;
+.hero p{
+    font-size: 2rem;
 }
