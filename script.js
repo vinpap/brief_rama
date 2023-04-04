@@ -52,6 +52,7 @@ glaces = [
     glace_chocolat = new Glace(
         "Chocolat",
         "Savourez chaque bouchée de notre glace artisanale au chocolat, faite avec les ingrédients les plus fins et les plus savoureux. Laissez-vous transporter par sa texture crémeuse et onctueuse qui fond en bouche. Une expérience glacée inoubliable pour les amateurs de chocolat.",
+
         "assets/img/chocolat.png",
         "#A9D0F5"
     ),
@@ -66,6 +67,7 @@ glaces = [
     glace_fraise = new Glace(
         "Fraise",
         "Savourez notre glace artisanale à la fraise, préparée avec des fraises fraîches et juteuses pour une saveur fruitée et acidulée. Laissez-vous emporter par la douceur de sa texture crémeuse et onctueuse qui fond en bouche. Une expérience glacée irrésistiblement fruitée pour les amateurs de fraise.",
+
         "assets/img/fraise.png",
         "#FFC0CB"
     )
