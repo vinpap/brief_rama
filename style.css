@@ -25,3 +25,8 @@ body {
 .contact {
     background-color: #f8f9fa;
 }
+
+/* Modify the background color */
+.vincent-navbar-custom {
+    background-color: #F7DC6F;
+}
