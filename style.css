@@ -28,5 +28,9 @@ body {
 
 /* Modify the background color */
 .vincent-navbar-custom {
-    background-color: #F7DC6F;
+    background-color: #FFC0CB;
+}
+
+.vincent-navitem {
+    color: black;
 }
